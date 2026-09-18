@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Nguyen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 750px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        nav a {
+            margin-right: 15px;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aaron Nguyen</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="https://github.com/aaronsongnguyen">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <figure>
+                <img src="profile.jpg" alt="Photo of Aaron Nguyen" width="200" height="200">
+            </figure>
+            <p>
+                Hi, I'm Aaron. I'm a Computer Science and Data Science major at UC Berkeley,
+                graduating in May 2028. Most of what I work on is AI agents and the backend
+                systems that run them. I've interned at Illumio, Screenz AI, and NVIDIA.
+            </p>
+            <p>
+                On campus I'm in DiversaTech and the Vietnamese Student Association. I'm also
+                an Eagle Scout.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <article>
+                <h3>Illumio - Software Engineering Intern</h3>
+                <p>May 2026 - August 2026, Sunnyvale, CA</p>
+                <ul>
+                    <li>Built AI agents with LangGraph that detect MITRE ATT&amp;CK techniques in security telemetry</li>
+                    <li>Added beam search over the agents' reasoning paths, which improved detection coverage and precision by 25%</li>
+                    <li>Made an eval pipeline for over 100,000 LLM calls using LLM as a judge and human review</li>
+                    <li>Migrated our Langfuse server from v2 to v3 on Kubernetes and wrote the Helm charts for it</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Screenz AI - Software Engineer Intern</h3>
+                <p>June 2025 - August 2025, Remote</p>
+                <ul>
+                    <li>Built RAG knowledge bases for each interview agent using company docs and interview materials</li>
+                    <li>Wrote a token reduction algorithm that cut over 40% of input tokens and saved about $10,000 a month</li>
+                    <li>Made scoring 30% more efficient with async queuing</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>NVIDIA - Software Engineer Intern (Contract)</h3>
+                <p>January 2025 - May 2025, Santa Clara, CA</p>
+                <ul>
+                    <li>Built an internal AI tool that automates dataset discovery and exploratory analysis for forecasting, which cut manual analysis time by 90%</li>
+                    <li>Built a time series cross validation pipeline that tests 8,000+ covariate combinations and improved forecasting accuracy by 15%</li>
+                    <li>Made the pipeline 20% faster with random forest pruning and parallelization</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Field Medic</h3>
+                <p><strong>Top 3 at the Google/Qualcomm hackathon</strong></p>
+                <p>
+                    Field Medic is an offline AI first-aid assistant for Android. It uses the camera,
+                    speech-to-text, and on-device models (Gemma, FastVLM, LiteRT) to walk you through
+                    first aid when there's no internet, like during a disaster or somewhere remote.
+                    It's written in Java and the project is open source on my
+                    <a href="https://github.com/aaronsongnguyen">GitHub</a>.
+                </p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: Python, TypeScript, JavaScript, SQL, Java, C++, C</li>
+                <li>AI: LLM agents, RAG, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy</li>
+                <li>Web: React, Next.js, Node.js, Express, React Native, GraphQL</li>
+                <li>Tools: GCP, Docker, Kubernetes, Helm, PostgreSQL, Firebase, Git</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <address>
+                Email: <a href="mailto:airrock85@berkeley.edu">airrock85@berkeley.edu</a><br>
+                LinkedIn: <a href="https://linkedin.com/in/aaron-nguyen1">linkedin.com/in/aaron-nguyen1</a><br>
+                GitHub: <a href="https://github.com/aaronsongnguyen">github.com/aaronsongnguyen</a>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>Aaron Nguyen, 2026</p>
+    </footer>
+</body>
+</html>
